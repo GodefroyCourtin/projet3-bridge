@@ -24,6 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Application definition
 
 INSTALLED_APPS = [
+    "club.apps.ClubConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
