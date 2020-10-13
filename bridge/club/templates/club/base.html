@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Groupement Amical des Bridgeurs Olivetains</title>
+    <meta name="description" content="Carrousel bridge club">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg navbar fixed-top bg-dark">
+        <a class='navbar-brand' href="#">
+            <img src="logo.jpg" width="50" height="50" alt="Logo bridge olivetain">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Agenda</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Club</a>
+                </li>
+                <li>
+                    <a class="nav-link " href="#">Contact</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Connexion
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </div>
+
+    <footer id="sticky-footer" class="page-footer bg-dark">
+        <div class="container">
+            <div class="row text-center d-flex justify-content-center pt-5 mb-3 ">
+                <a class="nav-link" href="#">Accueil</a>
+                <a class="nav-link" href="#">Agenda</a>
+                <a class="nav-link" href="#">Club</a>
+                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#">Mentions légales</a>
+            </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
