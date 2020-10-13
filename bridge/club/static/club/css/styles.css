@@ -1,10 +1,20 @@
 footer {
-    position: absolute;
+  
     bottom: 0;
     width: 100%;
 }
 
-img {
+.logo{
     /* max-width: 20%; */
+    height: 15vh;
+}
+
+.img-carousel {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.img-dimension{
     height: 15vh;
 }
