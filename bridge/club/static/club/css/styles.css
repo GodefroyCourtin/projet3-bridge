@@ -1,11 +1,10 @@
 footer {
-  
     bottom: 0;
     width: 100%;
 }
 
 .logo{
-    /* max-width: 20%; */
+    object-fit: cover;
     height: 15vh;
 }
 
@@ -16,5 +15,23 @@ footer {
 }
 
 .img-dimension{
-    height: 15vh;
+    
+    object-fit: cover;
+    height: 300px;
+}
+
+.detail-separator {
+    padding-bottom: 25px;
+}
+
+.nav-link{
+    margin: 0 30PX;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
 }
