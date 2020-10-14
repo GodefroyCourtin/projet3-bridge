@@ -14,3 +14,6 @@ def agenda(request):
 
 def gallerie(request):
     return render(request,"club/gallerie.html")
+
+def evenement(request):
+    return render(request,"club/evenement.html")
