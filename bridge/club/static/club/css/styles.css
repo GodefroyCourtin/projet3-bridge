@@ -27,3 +27,11 @@ footer {
 .nav-link{
     margin: 0 30PX;
 }
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
