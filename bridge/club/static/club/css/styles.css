@@ -1,7 +1,19 @@
-footer {
+body{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: linear-gradient(
+        rgba(248, 246, 246, 0.55),
+        rgba(248, 246, 246, 0.55)),
+        url("../img/bridge1.jpg");
+    background-size: cover;
+    opacity: 1;
+}
+.hauteurbox{
+    min-height: 75vh;
+}
+/* footer {
     bottom: 0;
     width: 100%;
-}
+} */
 
 .logo{
     object-fit: cover;
@@ -18,10 +30,11 @@ footer {
     
     object-fit: cover;
     height: 300px;
-    border-radius: 30px!important
+    border-radius: 20px!important
     
 }
 .card{
+    padding: 20px;
     border-radius: 20px!important 
 }
 .detail-separator {
@@ -44,8 +57,10 @@ footer {
     padding: 5px;
 }
 
-.text-acceuil2, .img-acceuil{
+.text-acceuil2{
     padding: 20px;
-    
 }
+
+
+
 
