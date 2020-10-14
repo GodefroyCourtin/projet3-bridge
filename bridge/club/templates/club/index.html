@@ -1,7 +1,6 @@
 {% extends 'club/base.html' %}
-{% block content %}
 {% load static %}
-
+{% block content %}
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -27,87 +26,50 @@
 
 
 <div class="container">
-    <div class="col-lg-12">
-        <hr>
-        <h2 class="intro-text text-center">G.A.B.O</h2>
-        <hr class="detail-separator">
-    </div>
-    <div class="card shadow m-3">
-        <div class="row">
-
-            <div class="col-lg-6">
-                <img class="img-dimension" src="{% static 'club/img/enfants.jpg' %}" alt="">
-            </div>
-            <div class="col-lg-6">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, illum, ut labore explicabo sed
-                    voluptatibus ipsum eius odio ad neque voluptates beatae magni iure excepturi modi. Debitis ipsam
-                    incidunt fugit!</p>
-            </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <hr>
+            <h2 class="intro-text text-center">L'Histoire du G.A.B.O</h2>
+            <hr class="detail-separator">
         </div>
-    </div>
-    <div class="card shadow m-3">
-        <div class="row">
 
-            <div class="col-lg-6">
-                <img class="img-dimension" src="{% static 'club/img/enfants.jpg' %}" alt="">
-            </div>
-            <div class="col-lg-6">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, illum, ut labore explicabo sed
-                    voluptatibus ipsum eius odio ad neque voluptates beatae magni iure excepturi modi. Debitis ipsam
-                    incidunt fugit!</p>
-            </div>
-        </div>
-    </div>
-    <div class="card shadow m-3">
-        <div class="row">
+        <div class="card shadow rounded m-3">
+            <div class="row">
+                <div class="col-lg-6 text-center align-self-center">
+                    <img class="img-acceuil img-dimension" src="{% static 'club/img/enfants.jpg' %}" alt="">
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <p class="text-acceuil2">Bienvenue sur le site du Groupement Amical des Bridgeurs Olivetains
+                        (GABO),
+                        où nous sommes
+                        heureux de vous accueillir et de vous proposer une visite guidée de notre club.</p>
+                    <p class="text-acceuil2">Une équipe de bénévole reste à votre disposition pour vous accueillir dans
+                        notre club ou vous
+                        donner des renseignements complémentaires en nous envoyant un message par le biais de la page
+                        "Contact".
+                    </p>
+                </div>
 
-            <div class="col-lg-6">
-                <img class="img-dimension" src="{% static 'club/img/enfants.jpg' %}" alt="">
-            </div>
-            <div class="col-lg-6">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, illum, ut labore explicabo sed
-                    voluptatibus ipsum eius odio ad neque voluptates beatae magni iure excepturi modi. Debitis ipsam
-                    incidunt fugit!</p>
+                <div class="col-lg-6 align-self-center">
+                    <p class="text-acceuil2">Le G.A.B.O a été créé le 3 mars 1978 à Olivet par quelques amis
+                        olivetains qui
+                        voulaient partager en
+                        toute convivialité leur commune passion du bridge.
+                    </p>
+                    <p class="text-acceuil2">Affilié à la Fédération française de Bridge en 1981, le club a fêté ses 35
+                        ans, et compte
+                        actuellement un peu plus de 300 adhérents. Depuis le 17 octobre 2012, il est installé dans de
+                        nouveaux locaux où la salle de jeu a été baptisée par la mairie « salle des 4 Rois ».
+                    </p>
+                </div>
+                <div class="col-lg-6 text-center align-self-center">
+                    <img class="img-acceuil img-dimension" src="{% static 'club/img/enfants.jpg' %}" alt="">
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-
-
-
-
-<!-- <div class="col-sm-6 text-center">
-            <a href="#">
-                <img class="img-dimension" src="{% static 'club/img/acceuil1.jpg' %}" alt="#">
-            </a>
-            <h3><a href="#">Titre article</a></h3>
-            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, excepturi
-                eaque, quod aliquam
-                minus
-                quae vero
-                praesentium deserunt sequi dicta sint odit aut hic itaque maiores iusto ratione illo repudiandae.
-
-                praesentium deserunt sequi dicta sint odit aut hic itaque maiores iusto ratione illo repudiandae.
-                praesentium deserunt sequi dicta sint odit aut hic itaque maiores iusto ratione illo repudiandae.
-            </p>
-        </div>
-
-        <div class="col-sm-6 text-center">
-            <a href="#">
-                <img class="img-dimension" src="{% static 'club/img/acceuil2.jpg' %}" alt="#">
-            </a>
-            <h3><a href="#">Titre article</a></h3>
-            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, excepturi
-                eaque, quod aliquam
-                minus
-                quae vero
-                praesentium deserunt sequi dicta sint odit aut hic itaque maiores iusto ratione illo repudiandae.
-
-                praesentium deserunt sequi dicta sint odit aut hic itaque maiores iusto ratione illo repudiandae.
-                praesentium deserunt sequi dicta sint odit aut hic itaque maiores iusto ratione illo repudiandae.
-            </p>
-        </div> -->
 
 
 {% endblock %}

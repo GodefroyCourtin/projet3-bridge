@@ -18,8 +18,12 @@ footer {
     
     object-fit: cover;
     height: 300px;
+    border-radius: 30px!important
+    
 }
-
+.card{
+    border-radius: 20px!important 
+}
 .detail-separator {
     padding-bottom: 25px;
 }
@@ -35,3 +39,13 @@ footer {
     padding-left: 15px;
     width: 100%;
 }
+
+.carousel{
+    padding: 5px;
+}
+
+.text-acceuil2, .img-acceuil{
+    padding: 20px;
+    
+}
+
