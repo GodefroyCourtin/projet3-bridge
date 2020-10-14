@@ -11,3 +11,6 @@ def contact(request):
 
 def agenda(request):
     return render(request,"club/agenda.html")
+
+def gallerie(request):
+    return render(request,"club/gallerie.html")
