@@ -87,11 +87,12 @@ h1,h2,h3,h5,h6{
 } */
 
 .contact-us {
-    padding: 50px;
+    padding: 25px;
 }
 
-h3{
-    padding:15px;
+.h3new{
+    /* padding:15px; */
+    font-weight: bold;
 }
 
 
