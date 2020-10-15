@@ -37,6 +37,15 @@ h1,h2,h3,h5,h6{
     object-fit: cover;
 }
 
+.carousel-caption{
+    color:#ffff;
+    background-color:#908d8d5e;
+    right: 0%;
+    left: 0%;
+    bottom: 104px;
+    z-index: 0;
+}
+
 .img-dimension{
     
     object-fit: cover;
