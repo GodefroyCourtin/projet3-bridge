@@ -30,7 +30,7 @@ body{
     
     object-fit: cover;
     height: 300px;
-    border-radius: 20px!important
+    /* border-radius: 20px!important */
     
 }
 .card{
@@ -60,6 +60,12 @@ body{
 .text-acceuil2{
     padding: 20px;
 }
+
+/* .img-galerie{
+    object-fit: cover;
+    height: 300px;
+    border-radius: 20px!important
+} */
 
 
 
