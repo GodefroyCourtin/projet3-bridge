@@ -1,11 +1,22 @@
 body{
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: "Gills Sans","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family: system-ui, -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell","Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    
     background: linear-gradient(
         rgba(248, 246, 246, 0.55),
         rgba(248, 246, 246, 0.55)),
         url("../img/bridge1.jpg");
     background-size: cover;
     opacity: 1;
+}
+
+
+h1,h2,h3,h5,h6{
+    font-family: 'Martel', serif;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .hauteurbox{
     min-height: 75vh;
@@ -30,7 +41,7 @@ body{
     
     object-fit: cover;
     height: 300px;
-    border-radius: 20px!important
+    border-radius: 10px!important
     
 }
 .img-dimension-galerie{
@@ -42,7 +53,7 @@ body{
 }
 .card{
     padding: 20px;
-    border-radius: 20px!important;
+    border-radius: 10px!important;
     background-color:rgb(235, 236, 236);
 }
 .detail-separator {
@@ -74,8 +85,6 @@ body{
     height: 300px;
     border-radius: 20px!important
 } */
-
-
 
 
 
