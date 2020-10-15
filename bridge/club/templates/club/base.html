@@ -29,16 +29,16 @@
                     <a class="nav-link" href="{% url 'club:index' %}">Accueil <span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item text-center">
-                    <a class="nav-link" href="#">Agenda</a>
+                    <a class="nav-link" href="{% url 'club:agenda' %}">Agenda</a>
                 </li>
                 <li>
-                    <a class="nav-link text-center" href="#">Evénements</a>
+                    <a class="nav-link text-center" href="{% url 'club:evenement' %}">Evénements</a>
                 </li>
                 <li>
-                    <a class="nav-link text-center" href="#">Gallerie</a>
+                    <a class="nav-link text-center" href="{% url 'club:galerie' %}">Galerie</a>
                 </li>
                 <li>
-                    <a class="nav-link text-center" href="#">Contact</a>
+                    <a class="nav-link text-center" href="{% url 'club:contact' %}">Contact</a>
                 </li>
             </ul>
         </div>
