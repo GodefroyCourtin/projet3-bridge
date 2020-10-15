@@ -1,0 +1,43 @@
+{% extends 'club/base.html' %}
+{% block content %}
+<section>
+    <div class="container">
+        <div class="card col-lg-8 my-3 shadow p-3 rounded">
+            <div class="row">
+                <div class="col-md-12 px-3">
+                    <div class="card-block px-3">
+                        <h4 class="card-title text-center mt-2">Votre Adresse email:</h4>
+                        <h4 class="card-title text-center mt-2">{{ user.email }}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card col-lg-8 my-3 shadow p-3 rounded">
+            <div class="row">
+                <div class="col-md-12 px-3">
+                    <div class="card-block px-3">
+                        <h4 class="card-title text-center mt-2">Votre Nom:</h4>
+                        <h4 class="card-title text-center mt-2">{{ user.last_name }}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card col-lg-8 my-3 shadow p-3 rounded">
+            <div class="row">
+                <div class="col-md-12 px-3">
+                    <div class="card-block px-3">
+                        <h4 class="card-title text-center mt-2">Votre Prenom:</h4>
+                        <h4 class="card-title text-center mt-2">{{ user.first_name }}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}
