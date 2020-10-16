@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'club/css/styles.css' %}">
     <link href="https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -61,9 +63,9 @@
     <footer id="sticky-footer" class="page-footer bg-dark mb-0">
         <div class="container">
             <div class="social-links text-center">
-                <img class="logo" src="logo.png" alt="Logo bridge olivetain">
+                <img class="logo" src="{% static 'club/img/logo.png' %}" alt="Logo bridge olivetain">
                 <a href="https://www.facebook.com/bridge.gabo.7" class="fa fa-facebook"></a>
-                <img class="https://www.ffbridge.fr/" src="club\img\ffb.jpg" alt="fédération française des bridgeurs">
+                <a href=https://www.ffbridge.fr/"><img class="ffb"  src="{% static 'club/img/ffb.jpg' %}" alt="fédération française des bridgeurs"></a>
             </div>
             <div class="row text-center d-flex justify-content-center pt-5">
                 <a class="nav-link text-light text-decoration-none" href="{% url 'club:index' %}">Accueil</a>

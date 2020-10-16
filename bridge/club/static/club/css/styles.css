@@ -108,3 +108,17 @@ h1,h2,h3,h5,h6{
 .agenda{
     padding-left: 150px;
 }
+
+img.ffb {
+    width: 132px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+    color: #ffffffe5;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: #fff
+}
