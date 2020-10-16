@@ -1,4 +1,6 @@
 {% load static %}
+
+
 <!doctype html>
 
 <html lang="fr">
@@ -27,10 +29,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active text-center">
-                    <a class="nav-link" href="{% url 'club:index' %}">Accueil <span class="sr-only"></span></a>
+                    <a class="nav-link" href="{% url 'club:index' %}">Accueil</a>
                 </li>
                 <li class="nav-item text-center">
-                    <a class="nav-link" href="{% url 'club:agenda' %}">Agenda</a>
+                    <a class="nav-link" href="{% url 'club:agenda' %}">Agenda <span class="sr-only"></span></a>
                 </li>
                 <li>
                     <a class="nav-link text-center" href="{% url 'club:evenement' %}">Evénements</a>
@@ -41,6 +43,22 @@
                 <li>
                     <a class="nav-link text-center" href="{% url 'club:contact' %}">Contact</a>
                 </li>
+                {% if user.is_authenticated  %}
+                <li>
+                    <a class="nav-link text-center" href="{% url 'account:deconnexion' %}">Deconnexion</a>
+                </li>
+                <li>
+                    <a class="nav-link text-center" href="{% url 'account:my_account' %}">Mon compte</a>
+                </li>
+
+                {% else %}
+                <li>
+                    <a class="nav-link text-center" href="{% url 'account:connexion' %}">Connexion</a>
+                </li>
+                <li>
+                    <a class="nav-link text-center" href="{% url 'account:inscription_producteur' %}">Inscription</a>
+                </li>
+                {% endif %}
             </ul>
         </div>
     </nav>
