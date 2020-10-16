@@ -6,7 +6,7 @@ from .models import My_user
 from django.contrib.auth.decorators import login_required
 
 
-def inscription_producteur(request):
+def inscription(request):
     """Display the sign up form."""
     if request.method == "POST":
         form = Signup(request.POST)
@@ -21,7 +21,7 @@ def inscription_producteur(request):
             return redirect("account:connexion")
     else:
         return render(
-            request, "account/inscription_producteur.html", {"form": Signup()}
+            request, "account/inscription.html", {"form": Signup()}
         )
 
 
