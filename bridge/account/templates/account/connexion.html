@@ -4,9 +4,9 @@
 {% block content %}
 <main>
     <h2 class="text-center p-3 txt">Connexion</h2>
-    <hr class="style-eight mb-5">
-    <div class="container">
-        <div class="card col-lg-6 my-3 shadow p-3 rounded-lg">
+    <!-- <hr class="style-eight mb-5"> -->
+    <div class="container hauteurbox">
+        <div class="card col-lg-12 my-3 shadow p-3 rounded-lg">
 
             <form action="{% url 'account:connexion'%}" method="post">
                 {% csrf_token %}
@@ -32,7 +32,6 @@
 
         </div>
     </div>
-    <hr class="style-eight mb-5">
-
+    <!-- <hr class="style-eight mb-5"> -->
 </main>
 {% endblock %}
