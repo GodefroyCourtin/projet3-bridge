@@ -41,6 +41,14 @@ def connexion(request):
     else:
         return render(request, "account/connexion.html", {"form": Signin()})
 
-
+@login_required
 def my_account(request):
     return render(request, "account/my_account.html")
+
+    
+
+@login_required
+def deconnexion(request):
+    """Allow the user to disconnect."""
+    logout(request)
+    return redirect('/')

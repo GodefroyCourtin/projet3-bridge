@@ -1,4 +1,6 @@
 {% load static %}
+
+
 <!doctype html>
 
 <html lang="fr">
@@ -41,6 +43,22 @@
                 <li>
                     <a class="nav-link text-center" href="{% url 'club:contact' %}">Contact</a>
                 </li>
+                {% if user.is_authenticated  %}
+                <li>
+                    <a class="nav-link text-center" href="{% url 'account:deconnexion' %}">Deconnexion</a>
+                </li>
+                <li>
+                    <a class="nav-link text-center" href="{% url 'account:my_account' %}">Mon compte</a>
+                </li>
+
+                {% else %}
+                <li>
+                    <a class="nav-link text-center" href="{% url 'account:connexion' %}">Connexion</a>
+                </li>
+                <li>
+                    <a class="nav-link text-center" href="{% url 'account:inscription_producteur' %}">Inscription</a>
+                </li>
+                {% endif %}
             </ul>
         </div>
     </nav>
